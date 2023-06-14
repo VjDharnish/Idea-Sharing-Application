@@ -1,0 +1,250 @@
+@charset "ISO-8859-1";
+body{
+    background-color:  rgb(250, 247, 243);
+}
+
+span{
+	cursor:pointer;
+}
+
+.logo{
+    color: inherit;
+    text-decoration: inherit;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    height: 3rem;
+    width: 10rem;
+}
+.explore{
+    color: rgb(50, 49, 48);
+    text-decoration: inherit;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    margin-left:60%;
+}
+#top-container{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+
+}
+#signuphome {
+    appearance: unset;
+    color: rgb(255, 255, 255);
+    text-align: unset;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: rgb(116, 60, 122);
+    border: 1px solid transparent;
+    display: inline-flex;
+    padding-inline: 2rem;
+    height: unset;
+    outline: none;
+    border-radius: 2.25rem;
+    position: relative;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    width: 16rem;
+    min-height: 4rem;
+    transition: background-color 0.3s ease-out 0s;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    font-weight: 600;
+}
+.rough-content{
+    margin: 0px;
+    text-overflow: unset;
+    overflow: unset;
+    font-family: "Source Sans Pro", sans-serif;
+    display: block;
+    -webkit-box-orient: unset;
+    color: rgb(50, 49, 48);
+    font-size: 3rem;
+    line-height: 1.125em;
+    font-weight: 900;
+}
+#bigbox{
+width: 18rem;
+    height: auto;
+    fill: none;
+    position: absolute;
+    bottom: -30%;
+    z-index: 6;
+    left: 48%;
+    background-color: unset;
+}
+
+
+.addpost{
+    box-shadow: 1px 1px 1px 1px rgb(73, 65, 65);
+    cursor: pointer;
+}
+
+.addpost:active {
+    transform: translateY(2px);
+}
+
+#searchbar {
+            padding: 0 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background-color: #fff;
+            border-radius: 3px;
+        }
+
+    #searchbar span i{
+        color: #000;
+    }
+
+    #search{
+        flex: 1;
+        border: none;
+        outline: none;
+    }
+
+        #search:hover{
+            border-color: black;
+        }
+
+        .header {
+            margin: 0 auto;
+            background-color: black;
+            opacity: 0.8;
+            color: white;
+            padding: 1%;
+            padding-top: 1.5%;
+        }
+
+        #brandname {
+            margin-left: 2%;
+            margin-right: 13%;
+        }
+
+        #options{
+            list-style-type: none;
+            display: flex;
+            margin-left: 20%;
+        }
+
+        #options li{
+            padding: 0 30px;
+        }
+        
+        .idea-title{
+            margin: 0px 0.5rem 0px 0px;
+    text-overflow: unset;
+    overflow: unset;
+    border: none;
+    resize: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(50, 49, 48);
+    padding: 0px;
+    min-height: 2.5rem;
+    width: 100%;
+    height: auto;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+        }
+        
+	#content-editer{     
+    border: 0px solid;
+    font-size: 1.125rem !important;
+    line-height: 1.75rem !important;
+    font-family: "Source Sans Pro", sans-serif !important;
+    margin-bottom: 5px;
+    min-height: 6.25rem;
+    outline: none;
+	}
+	.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .popup-content {
+    position: relative;
+    width: 400px;
+    max-width: 90%;
+    margin: 20% auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  
+  .profile-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.profile-icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.profile-screen {
+    position: fixed;
+    top: 0;
+    right: -300px; /* Offscreen by default */
+    width: 300px;
+    height: 100%;
+    background-color: #f1f1f1;
+    transition: right 0.3s ease-in-out;
+}
+
+.profile-content {
+    padding: 20px;
+}
+
+.close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.close-icon img {
+    width: 20px;
+    height: 20px;
+}
+
+#profile-details {
+    display: none; /* Hide profile details by default */
+}
+
+#login-signup {
+    display: block; /* Show login and signup buttons by default */
+}
+  
+    

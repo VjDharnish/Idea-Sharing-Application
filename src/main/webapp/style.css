@@ -1,0 +1,82 @@
+body{
+    background-color:  rgb(250, 247, 243);
+}
+
+.logo{
+    color: inherit;
+    text-decoration: inherit;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    height: 3rem;
+    width: 10rem;
+}
+.explore{
+    color: rgb(50, 49, 48);
+    text-decoration: inherit;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    margin-left:60%;
+}
+#top-container{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+
+}
+#signuphome {
+    appearance: unset;
+    color: rgb(255, 255, 255);
+    text-align: unset;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: rgb(116, 60, 122);
+    border: 1px solid transparent;
+    display: inline-flex;
+    padding-inline: 2rem;
+    height: unset;
+    outline: none;
+    border-radius: 2.25rem;
+    position: relative;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    width: 16rem;
+    min-height: 4rem;
+    transition: background-color 0.3s ease-out 0s;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    font-weight: 600;
+}
+.rough-content{
+    margin: 0px;
+    text-overflow: unset;
+    overflow: unset;
+    font-family: "Source Sans Pro", sans-serif;
+    display: block;
+    -webkit-box-orient: unset;
+    color: rgb(50, 49, 48);
+    font-size: 3rem;
+    line-height: 1.125em;
+    font-weight: 900;
+}
+#bigbox{
+width: 18rem;
+    height: auto;
+    fill: none;
+    position: absolute;
+    bottom: -30%;
+    z-index: 6;
+    left: 48%;
+    background-color: unset;
+}
